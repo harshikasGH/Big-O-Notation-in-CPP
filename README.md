@@ -1,21 +1,18 @@
-# ⏱️ Big O Notation in C++
+Big O Notation in C++
 
-## 🎯 Aim  
+Aim  
 To study and understand **Big O Notation** in C++ for analyzing the **time and space complexity** of algorithms, and to implement simple programs that demonstrate different complexities.
 
----
-
-## 📚 Theory  
-
+Theory  
 **Big O Notation** is a mathematical notation used to describe the **upper bound** of an algorithm’s growth rate. It provides a way to classify algorithms according to how their running time or space requirements grow as the input size increases.
 
-### 🔑 Characteristics of Big O Notation  
+### Characteristics of Big O Notation  
 - **Asymptotic Analysis**: Focuses on growth rate as input size `n → ∞`.  
 - **Machine Independent**: Ignores hardware and implementation details.  
 - **Upper Bound**: Describes the worst-case scenario.  
 - **Simplification**: Ignores constants and lower-order terms.  
 
-### 🔄 Common Time Complexities  
+### Common Time Complexities  
 - **O(1)** → Constant time (independent of input size).  
 - **O(log n)** → Logarithmic time (binary search).  
 - **O(n)** → Linear time (linear search).  
@@ -24,28 +21,24 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 - **O(2<sup>n</sup>)** → Exponential time (recursive Fibonacci).  
 - **O(n!)** → Factorial time (brute-force permutations).  
 
----
+## Algorithms Demonstrating Big O  
 
-## 📋 Algorithms Demonstrating Big O  
-
-### 🧾 O(1) – Constant Time  
+### O(1) – Constant Time  
 1. Start  
 2. Access an element in an array by index.  
 3. Print the element.  
 4. End  
 
----
 
-### 🧾 O(n) – Linear Time  
+### O(n) – Linear Time  
 1. Start  
 2. Input array of size `n`.  
 3. For each element from `0` to `n-1`:  
    - Print element.  
 4. End  
 
----
 
-### 🧾 O(n²) – Quadratic Time  
+### O(n²) – Quadratic Time  
 1. Start  
 2. Input array of size `n`.  
 3. For `i = 0` to `n-1`:  
@@ -53,9 +46,7 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
      - Print pair `(i, j)`.  
 4. End  
 
----
-
-### 🧾 O(log n) – Logarithmic Time (Binary Search)  
+### O(log n) – Logarithmic Time (Binary Search)  
 1. Start  
 2. Input sorted array and key.  
 3. Initialize `low = 0`, `high = n-1`.  
@@ -67,9 +58,8 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 5. If not found, print "Element not found".  
 6. End  
 
----
 
-### 🧾 O(2<sup>n</sup>) – Exponential Time (Recursive Fibonacci)  
+### O(2<sup>n</sup>) – Exponential Time (Recursive Fibonacci)  
 1. Start  
 2. Define recursive function `fib(n)`:  
    - If `n <= 1`, return `n`.  
@@ -77,9 +67,8 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 3. Call `fib(n)` for input `n`.  
 4. End  
 
----
 
-## 🧩 Time Complexity Comparison  
+## Time Complexity Comparison  
 
 | Complexity | Example Algorithm        | Growth Rate |
 |------------|--------------------------|-------------|
@@ -91,18 +80,15 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 | O(2<sup>n</sup>)     | Recursive Fibonacci      | Exponential |
 | O(n!)      | Brute-force permutations | Factorial   |
 
----
 
-## 🚀 Applications  
+## Applications  
 
 - **Algorithm Analysis** → Compare efficiency of algorithms.  
 - **Data Structures** → Evaluate operations like insertion, deletion, search.  
 - **Optimization** → Choose the most efficient algorithm for large inputs.  
 - **Software Engineering** → Estimate scalability and performance.  
 
----
-
-## 🧠 Conclusion  
+## Conclusion  
 
 - Big O Notation provides a **standardized way** to measure algorithm efficiency.  
 - It focuses on **asymptotic behavior**, ignoring constants and lower-order terms.  
